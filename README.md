@@ -105,23 +105,6 @@ After completing this lab, we will be able to:
 - Structure scraped data using `pandas`.
 - Prepare historical stock data for further analysis.
 
-## Git Setup and Push
-
-This project includes a `.gitignore` file so temporary files like `.venv` and `__pycache__` are not pushed to GitHub.
-
-To push this project to GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Initial stock web scraping lab"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your GitHub repository URL.
-
 ## Notes
 
 This lab is for educational purposes only. When scraping websites, always review the website's terms of service and avoid sending too many requests in a short period of time.
